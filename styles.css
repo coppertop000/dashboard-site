@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #1f1f1f;
+    color: #e5e5e5;
+}
+
+header {
+    background-color: #343434;
+    color: #ffd700;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2rem;
+    gap: 1rem;
+}
+
+/* Common styles for boxes */
+.box {
+    border: 1px solid;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    text-decoration: none;
+    color: #e5e5e5;
+    width: 200px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    padding: 1rem;
+}
+
+.box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.4);
+}
+
+.box-content {
+    padding: 1rem;
+}
+
+/* Plex theme */
+.plex {
+    background-color: #2d2d2d;
+    border-color: #ffd700;
+}
+
+.plex h2 {
+    color: #ffd700;
+}
+
+/* Overseerr theme */
+.overseerr {
+    background-color: #1f232a;
+    border-color: #5e5ce6; /* Adjusted to purply blue color */
+}
+
+.overseerr h2 {
+    color: #5e5ce6; /* Adjusted to purply blue color */
+}
+
+/* Guacamole theme */
+.guacamole {
+    background-color: #555555; /* Matched to the background color of the other boxes */
+    border-color: #8bc34a; /* Adjusted to white green */
+}
+
+.guacamole h2 {
+    color: #8bc34a; /* Adjusted to white green */
+}
+
+/* Uptime Kuma theme */
+.uptime-kuma {
+    background-color: #2d2d2d;
+    border-color: #4caf50; /* Adjusted to green color */
+}
+
+.uptime-kuma h2 {
+    color: #4caf50; /* Adjusted to green color */
+}
+
+footer {
+    background-color: #343434;
+    color: #e5e5e5;
+    text-align: center;
+    padding: 1rem;
+    margin-top: auto;
+}
